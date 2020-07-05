@@ -1,0 +1,93 @@
+/*Main Navbar*/
+
+.navbar {
+    min-height: 70px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+/*Active Link*/
+
+.navbar-inverse .navbar-nav >.active > a,
+.navbar-inverse .navbar-nav > .active >a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #00aeef;
+}
+
+/*Normal Link*/
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/*Brand Name*/
+
+.navbar-inverse .navbar-brand {
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #BBB;
+}
+.navbar-inverse .navbar-brand span {
+    color: #00aeef;
+}
+
+/*Dropdown menue*/
+
+.dropdown-menu {
+    background-color: #333;
+}
+.navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+.dropdown-menu > li > a {
+    color: #FFF;
+    padding: 6px 20px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #00aeef;
+    color: #FFF;
+    padding-left: 25px;
+}
+
+/*Navbar Toggel*/
+
+.navbar-toggle {
+    margin-top: 18px;
+}
+
+/*carousel*/
+
+.img-container {
+    width: 100%;
+    height: 40em;
+    background-image: url(../images/pic1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-container2 {
+    width: 100%;
+    height: 40em;
+    background-image: url(../images/pic2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-container3 {
+    width: 100%;
+    height: 40em;
+    background-image: url(../images/pic4.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

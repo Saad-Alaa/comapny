@@ -1,0 +1,268 @@
+/*Start Global Rulez*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    height: 3000px;
+}
+
+/*End Global Rulez*/
+
+
+/*start navbar*/
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.navbar-nav {
+    float: right;
+}
+
+/*end navbar*/
+
+
+/*start carousel*/
+
+.carousel-caption {
+    position: absolute;
+    bottom: 15em;
+}
+.carousel-caption h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #adb6ce;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.carousel-caption p {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+/*end carousel*/
+
+
+/*start about*/
+
+.about-us {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about-us h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #adb6ce;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.about-us .lead {
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+/*end about*/
+
+
+/*start features*/
+
+.features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EEE;
+}
+.features h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #adb6ce;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.features .feat {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.features .feat p {
+    line-height: 1.5em;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.features .feat span.glyphicon {
+    font-size: 22px;
+}
+
+/*end features*/
+
+
+/*start testmonials*/
+
+.testmonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testmonials h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #adb6ce;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+.testmonials .carousel {
+    height: 14em;
+}
+.testmonials .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    background-color: #000 \9;
+    background-color: rgba(15, 13, 29, 0.04);
+    border: 1px solid #000;
+}
+.testmonials .carousel-caption {
+    position: absolute;
+    bottom: 15em;
+}
+.testmonials .carousel-caption h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #adb6ce;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.testmonials .carousel-caption p {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.testmonials span {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #379CEA;
+}
+
+/*end testmonials*/
+
+
+/*start price table*/
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #EEE;
+}
+.price-table h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #adb6ce;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+.price-table .price-box {
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+.price-table .price-box h3 {
+    margin: 5px 0 15px;
+}
+.price-table .price-box:hover p {
+    -webkit-transform: scale(1.1, 1.1) rotate(360deg);
+    -moz-transform: scale(1.1, 1.1) rotate(360deg);
+    -o-transform: scale(1.1, 1.1) rotate(360deg);
+    transform: scale(1.1, 1.1) rotate(360deg);
+    border: 2px solid #DFDFDF;
+}
+.price-table .price-box p {
+    width: 100px;
+    height: 100px;
+    background: #f3f3f3;
+    border-radius: 50px;
+    line-height: 100px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #666;
+    border: 2px solid #fff;
+    -webkit-transition-duration: .7s;
+    -moz-transition-duration: .7s;
+    -o-transition-duration: .7s;
+    transition-duration: .7s;
+}
+.price-table .price-box ul {
+    line-height: 2.5;
+    font-size: 18px;
+}
+.price-table .price-box a {
+    margin-bottom: 5px;
+}
+
+/*end price table*/
+
+
+/*start our team*/
+
+.our-team {
+    background: url("images/15364.jpg") no-repeat;
+    background-attachment: fixed;
+    min-height: 483px;
+}
+.our-team .team {
+    background: rgba(2, 2, 2, 0.73);
+    color: #fff;
+    min-height: 483px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our-team .team h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #adb6ce;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+}
+.our-team .team .person {}
+.our-team .team .person img {
+    width: 90%;
+}
+
+/*end our team*/
+
+
+/*start subscripe*/
+
+.subscripe {
+    background: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.subscripe h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #adb6ce;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+}
+.subscripe .form-control {
+    margin-right: -5px;
+    width: 300px;
+}
+
+/*end subscripe*/
